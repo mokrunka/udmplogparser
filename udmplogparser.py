@@ -1,9 +1,9 @@
 from datetime import datetime
 
-# open up the raw logfile (/var/log/messages on the UDMP) and look for rules that are dropped
-# logfile names: /var/log/udmplogfile.log, .log.1, .log.2, .log.3
+# open up the raw logfile (/var/log/ulog/syslogemu.log on the UDMP) and look for rules that are dropped
+# logfile names: /var/log/ulog/syslogemu.log, .log.1, .log.2, .log.3
 
-log_file_list = ['/var/log/udmplogfile.log']
+log_file_list = ['/var/log/ulog/syslogemu.log']
 
 # uncomment below for debugging
 # with open(r'diditrun.log', "a") as logger:
